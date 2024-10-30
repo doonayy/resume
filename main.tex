@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[blue]{classic}
+\usepackage[top=1cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\setlength{\hintscolumnwidth}{2.5cm}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+
+% Données personnelles
+\name{Surname}{Name}
+\title{Ingénieur alternant Ia / Si}
+\address{75014 Paris}{France}
+\phone[fixed]{+xxxxxxxxxx}
+\email{xxxxxxxx@eleve.isep.fr}
+\social[linkedin][www.linkedin.com/]{Linkedin}
+
+% Photo
+\ifx\versionWORLD\undefined
+\photo[80pt][0pt]{profile-pic1.png}
+\fi
+
+\begin{document}
+\makecvtitle
+
+% ==Formation==
+\section{Formation}
+\cventry{2026}{Cycle ingénieur}{ISEP}{Paris}{}{Cycle d'ingénieur en apprentissage}
+\cventry{2023}{Échange à Prague}{Czech Technical University}{Prague}{}{Immersion en Europe centrale}
+\cventry{2020}{Cycle intégrée internationale}{ISEP}{Paris}{}{Cycle intégrée internationale}
+
+% ==Expériences professionnelles==
+\section{Expériences professionnelles}
+\cventry{2024}{Développeur RPA}{DRHAT}{Tours}{}{Développement et mise en œuvre d'automation avec \textbf{UiPath} \newline pour l'extraction et le traitement de données dans SAP et Excel}
+\cventry{2023}{Tech Lead}{echOpen}{Paris}{}{Approfondissement de mes connaissances en \textbf{Python}. Acquisition et mise en image (Matplotlib) des données d'un IMU (accéléromètre et gyroscope) avec un Arduino}
+\cventry{2021}{Assistant chef de Silo}{Lepicard}{Commeny}{}{Gestion et surveillance des arrivages. Archivage des données de stockage.}
+
+% ==Compétences==
+\section{Compétences}
+\cvitem{Informatique}{Python, SQL, Bash, Git, UiPath, SAP, Java}
+\cvitem{Linguistiques}{Anglais : C1 (TOEIC 985), Allemand : B1}
+\cvitem{Autre}{Biochimie, Pharmacologie, Theorie musicale, Prompt engineering}
+
+
+% ==Projets académiques==
+\section{Projets académiques}
+\cvitem{}{Réalisation d’un projet en équipe, de l’idée jusqu’au prototype. 
+\newline Création d’un site \textbf{web} (XAMP, HTML, CSS, JS / PHP)}
+\cvitem{}{Câblage et programmation d’un microcontrôleur 
+\newline pour la captation sonore / température avec energia TIVA en \textbf{C}}
+\cvitem{}{Détection et caractérisation des sons avec \textbf{MATLAB}}
+\cvitem{}{Conception d'un jeu D\&D - \textbf{Python}}
+\cvitem{}{Conception d’une application de gestion - \textbf{Java / JavaFX}}
+\cvitem{}{Automatisation de la récupération des données d'un serveur 
+\newline (Connexion ssh, script bash, \textbf{Linux/Unix})}
+
+% ==Hobbies==
+\section{Hobbies}
+\cvitem{}{Formation en ligne HarvardX: Principles of Biochemistry (MCB63X).}
+\cvitem{}{2nd place sur 13 Silicon Days (hackathon, mise en oeuvre d'un \textbf{projet IA}) à l'ISEP.}
+\cvitem{}{Certificat d'Étude Musicale (CEM) obtenu avec mention très bien en 2018.}
+\cvitem{}{Premier violon dans l'Orchestre symphonique de l'Arque.}
+
+\end{document}
